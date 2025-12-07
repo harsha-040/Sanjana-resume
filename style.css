@@ -1,0 +1,152 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #222;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 5px 10px;
+}
+
+nav a:hover,
+nav a.active-link {
+    background-color: #fff;
+    color: #222;
+    border-radius: 4px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto 40px auto;
+    padding: 0 15px;
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    padding-bottom: 20px;
+}
+
+.container section {
+    padding: 20px;
+}
+
+h2, h3, h4 {
+    margin-bottom: 10px;
+}
+
+p, li {
+    margin-bottom: 6px;
+}
+
+ul {
+    margin-left: 20px;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 10px 0 20px 0;
+}
+
+.name-title {
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.highlight {
+    color: #0066cc;
+    font-weight: bold;
+}
+
+/* Home page cards */
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding-bottom: 20px;
+}
+
+.card {
+    flex: 1 1 250px;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    padding: 15px;
+    box-shadow: 0 0 4px rgba(0,0,0,0.05);
+}
+
+.card h3 {
+    margin-bottom: 8px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    background-color: #0066cc;
+    color: #fff;
+    border-radius: 4px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background-color: #004c99;
+}
+
+
+.biodata-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.biodata-table th,
+.biodata-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    vertical-align: top;
+}
+
+.biodata-table th {
+    width: 30%;
+    background-color: #f0f0f0;
+    text-align: left;
+}
+
+.declaration {
+    padding-top: 0;
+}
+
+.declaration .sign {
+    margin-top: 15px;
+}
+
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #222;
+    color: #fff;
+    font-size: 14px;
+}
